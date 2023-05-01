@@ -3,7 +3,6 @@ import pickle
 from PIL import Image
 import streamlit as st
 import plotly.express as px
-import joblib
 
 
 data = pd.read_csv('netflix_titles.csv')
